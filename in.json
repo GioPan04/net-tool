@@ -1,0 +1,43 @@
+[
+  {
+    "name": "A",
+    "ip": "192.168.0.0/24",
+    "subnetworks": [
+      {
+        "name": "A1",
+        "pc": 4,
+        "printers": 2,
+        "servers": 1        
+      },
+      {
+        "name": "A2",
+        "pc": 12,
+        "printers": 1
+      }
+    ]
+  },
+  {
+    "name": "B",
+    "ip": "172.28.0.0/16",
+    "subnetworks": [
+      {
+        "name": "B1",
+        "pc": 8,
+        "printers": 3,
+        "servers": 1
+      },
+      {
+        "name": "B2",
+        "pc": 24,
+        "printers": 4,
+        "servers": 1
+      },
+      {
+        "name": "B3",
+        "pc": 110,
+        "printers": 12,
+        "servers": 1
+      }
+    ]
+  }
+]

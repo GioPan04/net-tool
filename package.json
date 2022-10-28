@@ -1,0 +1,15 @@
+{
+  "name": "net-tool",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@types/node": "^18.11.2",
+    "commander": "^9.4.1",
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  }
+}
